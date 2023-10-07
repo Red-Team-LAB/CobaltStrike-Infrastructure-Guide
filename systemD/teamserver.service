@@ -1,0 +1,14 @@
+[Unit]
+Description=RFS CobalStrike
+After=network.target
+Wants=network.target
+
+[Service]
+Type=Simple
+WorkingDirectory=/opt/cobaltstrike-v4.7
+ExecStart=/opt/cobaltstrike-v4.7/teamserver 192.168.159.195 20232023
+Restart=always
+
+
+[Install]
+WantedBy=default.target
