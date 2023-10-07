@@ -7,8 +7,11 @@
 ```
 sudo apt-get update
 sudo apt-get install openjdk-11-jdk
-sudo apt install proxychains socat
 sudo update-java-alternatives -s java-1.11.0-openjdk-amd64
+```
+
+```
+sudo apt install proxychains socat
 ```
 
 ### SystemD Service
@@ -18,7 +21,7 @@ cd /etc/systemd/system/
 ```
 
 ```
-vi cobaltc2.service
+sudo vi cobaltc2.service
 ```
 
 ````
@@ -31,7 +34,7 @@ Wants=network.target
 [Service]
 Type=Simple
 WorkingDirectory=/opt/cobaltstrike-v4.7
-ExecStart=/opt/cobaltstrike-v4.7/teamserver 192.168.159.195 20232023
+ExecStart=/opt/cobaltstrike-v4.7/teamserver 192.168.159.195 <PASS>
 Restart=always
 
 
