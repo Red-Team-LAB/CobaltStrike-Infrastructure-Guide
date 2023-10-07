@@ -6,8 +6,12 @@
 
 
 
-1 - cd /etc/systemd/system/
-2 - vi cobaltc2.service
-3 - sudo systemctl restart cobaltc2.service
-4 - sudo systemctl enable cobaltc2.service
-5 - sudo systemctl status cobaltc2.service
+- cd /etc/systemd/system/
+- vi cobaltc2.service
+- sudo systemctl restart cobaltc2.service
+- sudo systemctl enable cobaltc2.service
+- sudo systemctl status cobaltc2.service
+
+
+
+## Managing the Keystore
