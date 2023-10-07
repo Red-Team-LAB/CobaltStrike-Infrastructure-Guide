@@ -1,6 +1,6 @@
 # Infrastructure Guide
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Cobalt Strike Infrastructure Guide</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Cobalt Strike Infrastructure Guide</p></figcaption></figure>
 
 
 

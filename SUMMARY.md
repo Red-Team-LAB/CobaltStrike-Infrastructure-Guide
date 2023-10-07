@@ -6,3 +6,4 @@
 
 * [Team Server](configurations/team-server.md)
 * [Listeners](configurations/listeners.md)
+* [Redirectors](configurations/redirectors.md)

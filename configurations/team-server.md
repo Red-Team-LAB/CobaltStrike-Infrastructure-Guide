@@ -1,5 +1,16 @@
 # Team Server
 
+###
+
+### Install Java
+
+```
+sudo apt-get update
+sudo apt-get install openjdk-11-jdk
+sudo apt install proxychains socat
+sudo update-java-alternatives -s java-1.11.0-openjdk-amd64
+```
+
 ### SystemD Service
 
 ```
@@ -45,7 +56,7 @@ sudo systemctl enable cobaltc2.service
 sudo systemctl status cobaltc2.service
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Configure CobaltStrike Keystore
 
