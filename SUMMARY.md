@@ -1,7 +1,8 @@
 # Table of contents
 
-* [Page](README.md)
+* [Infrastructure Guide](README.md)
 
 ## Configurations
 
 * [Team Server](configurations/team-server.md)
+* [Listeners](configurations/listeners.md)
